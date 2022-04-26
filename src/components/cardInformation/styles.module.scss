@@ -1,0 +1,21 @@
+.boxContainer {
+  margin-right: 30px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  background-color: #fff;
+
+  .buttonDownload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    button {
+      padding: 10px;
+
+      a {
+        text-decoration: none;
+        color: black ;
+      }
+    }
+  }
+}
